@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar/NavBar'
 
 import Nav from './Components/Nav/Nav'
 import PricingOption from './Components/PricingOptions/PricingOption'
+import Charts from './Components/Charts'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
        <Nav></Nav>    
       </nav>
       <PricingOption></PricingOption>
-
+      <Charts></Charts>
 
     </div>
 

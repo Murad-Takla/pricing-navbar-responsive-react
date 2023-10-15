@@ -15,7 +15,7 @@ const PriceCard = (props) => {
             </div>
           <hr></hr>
         {features.map ((feature , i) => <Features key={i} feature = {feature}></Features>) }
-    <button className='py-2 rounded text-white font-bold hover:bg-orange-600 bg-red-600 w-full'>Buy now</button>
+    <button className='py-2 rounded text-white font-bold hover:bg-indigo-600 bg-indigo-500 w-full'>Buy now</button>
         </div>
 
     );

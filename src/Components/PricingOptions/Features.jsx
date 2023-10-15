@@ -5,7 +5,7 @@ const Features = ({feature}) => {
    
     return (
         <div className='flex text-white p-2'>
-        <ChevronRightIcon className='w-6 h-6'></ChevronRightIcon>
+        <ChevronRightIcon className='w-6 h-6 '></ChevronRightIcon>
         <p>{feature}</p>
     </div>
     );
